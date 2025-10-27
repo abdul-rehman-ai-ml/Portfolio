@@ -63,13 +63,13 @@ const Hero = () => {
             </Link>
           </div>
           <div className="social-links">
-            <a href="https://www.linkedin.com/in/abdul-rehman" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/abduI-rehman-80b51a200/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <FaLinkedin />
             </a>
-            <a href="https://github.com/abdulrehman" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a href="https://github.com/abdul-rehman-ai-ml" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <FaGithub />
             </a>
-            <a href="mailto:mrehmansissiqui53@gmail.com" aria-label="Email">
+            <a href="mailto:mrehmansiddiqui53@gmail.com" aria-label="Email">
               <FaEnvelope />
             </a>
           </div>

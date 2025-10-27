@@ -6,8 +6,8 @@ const Contact = () => {
     {
       icon: <FaEnvelope />,
       title: 'Email',
-      value: 'mrehmansissiqui53@gmail.com',
-      link: 'mailto:mrehmansissiqui53@gmail.com'
+      value: 'mrehmansiddiqui53@gmail.com',
+      link: 'mailto:mrehmansiddiqui53@gmail.com'
     },
     {
       icon: <FaPhone />,
@@ -18,14 +18,14 @@ const Contact = () => {
     {
       icon: <FaMapMarkerAlt />,
       title: 'Location',
-      value: 'Lahore, Punjab, Pakistan',
+      value: 'Canal Bank, Lahore',
       link: null
     },
     {
       icon: <FaLinkedin />,
       title: 'LinkedIn',
       value: 'Connect with me',
-      link: 'https://www.linkedin.com/in/abdul-rehman'
+      link: 'https://www.linkedin.com/in/abduI-rehman-80b51a200/'
     }
   ];
 

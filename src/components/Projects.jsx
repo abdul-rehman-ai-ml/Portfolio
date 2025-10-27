@@ -4,80 +4,106 @@ import { FaRobot, FaComments, FaBrain, FaShieldAlt, FaTools, FaShoppingCart } fr
 const Projects = () => {
   const projects = [
     {
-      icon: <FaRobot />,
-      badge: 'Agentic AI',
-      title: 'Multi-Agent Research Assistant',
-      description: 'Built an autonomous research system using LangGraph with specialized agents for web search, document analysis, and synthesis. Implements ReAct pattern with tool-calling capabilities.',
-      tech: ['LangChain', 'GPT-4', 'Pinecone', 'FastAPI'],
+      icon: <FaComments />,
+      badge: 'NLP',
+      title: 'Multi-Lingual Sentiment Analysis (GlobalTextIQ)',
+      description: 'Engineered an NLP system to analyze customer reviews and remarks across multiple languages, providing actionable insights for businesses.',
+      tech: ['Python', 'NLP', 'TensorFlow', 'Transformers'],
       highlights: [
-        'Orchestrates 4 specialized agents with dynamic task delegation',
-        'RAG implementation with semantic chunking and reranking',
-        'Reduces research time by 70% with 90% accuracy'
+        'Multi-language support for global customer feedback',
+        'Real-time sentiment classification and analysis',
+        'Scalable architecture for high-volume data processing'
       ],
       featured: true
     },
     {
-      icon: <FaComments />,
-      badge: 'Generative AI',
-      title: 'Enterprise RAG Chatbot',
-      description: 'Production-ready conversational AI system with retrieval-augmented generation for enterprise knowledge base. Handles 50K+ documents with sub-second response times.',
-      tech: ['LlamaIndex', 'Claude', 'Weaviate', 'Docker'],
+      icon: <FaShieldAlt />,
+      badge: 'Deep Learning',
+      title: 'Heart Disease Prediction System',
+      description: 'Deployed a heart disease classification model to AWS SageMaker using a full CI/CD pipeline with GitHub Actions for automated deployment.',
+      tech: ['Python', 'AWS SageMaker', 'GitHub Actions', 'Scikit-learn'],
       highlights: [
-        'Hybrid search combining dense and sparse retrieval',
-        'Custom prompt templates with chain-of-thought reasoning',
-        'Deployed on AWS with auto-scaling (1K+ concurrent users)'
+        'Full CI/CD pipeline with automated testing',
+        'Deployed on AWS SageMaker for scalability',
+        'High accuracy classification model'
       ],
       featured: true
     },
     {
       icon: <FaBrain />,
-      badge: 'Fine-tuning',
-      title: 'Domain-Specific LLM Fine-tuning',
-      description: 'Fine-tuned Llama-2-7B for medical diagnosis assistance using QLoRA, achieving 92% accuracy on domain-specific tasks while reducing model size by 60%.',
-      tech: ['PyTorch', 'Hugging Face', 'LoRA', 'Weights & Biases'],
+      badge: 'Computer Vision',
+      title: 'CNN Image Recognition',
+      description: 'Developed a Convolutional Neural Network (CNN) for deep learning-based image classification with high accuracy on diverse datasets.',
+      tech: ['Python', 'TensorFlow', 'Keras', 'CNN'],
       highlights: [
-        'Efficient fine-tuning with 4-bit quantization',
-        'Custom evaluation metrics for medical accuracy',
-        'Deployed with TensorRT for 3x inference speedup'
+        'Deep learning architecture for image classification',
+        'Transfer learning for improved performance',
+        'Optimized for real-time inference'
+      ],
+      featured: true
+    },
+    {
+      icon: <FaTools />,
+      badge: 'Predictive ML',
+      title: 'ANN Housing Price Prediction',
+      description: 'Implemented an Artificial Neural Network (ANN) to predict housing prices based on various features and market conditions.',
+      tech: ['Python', 'TensorFlow', 'Pandas', 'NumPy'],
+      highlights: [
+        'Multi-layer neural network architecture',
+        'Feature engineering for improved accuracy',
+        'Regression model with low error rates'
       ],
       featured: false
     },
     {
-      icon: <FaShieldAlt />,
-      badge: 'ML Engineering',
-      title: 'Real-time Fraud Detection System',
-      description: 'ML-powered fraud detection using ensemble methods and anomaly detection, processing 100K+ transactions daily with 95% precision.',
-      tech: ['scikit-learn', 'XGBoost', 'Redis', 'AWS SageMaker'],
+      icon: <FaTools />,
+      badge: 'MLOps',
+      title: 'MLOps Housing Scheme',
+      description: 'Deployed a linear regression housing price model using MLOps principles including version control, automated testing, and continuous deployment.',
+      tech: ['Python', 'MLflow', 'Docker', 'Git'],
       highlights: [
-        'Real-time inference with <50ms latency',
-        'Handles class imbalance with SMOTE and ensemble methods',
-        'Continuous learning pipeline with automated retraining'
+        'Full MLOps pipeline implementation',
+        'Model versioning and experiment tracking',
+        'Automated deployment and monitoring'
       ],
       featured: false
     },
     {
       icon: <FaTools />,
       badge: 'Predictive ML',
-      title: 'Predictive Maintenance Engine',
-      description: 'Time-series forecasting model for industrial equipment failure prediction, reducing downtime by 30% using gradient boosting and LSTM networks.',
-      tech: ['TensorFlow', 'LightGBM', 'MLflow', 'Kubernetes'],
+      title: 'Employee Salary Prediction',
+      description: 'Built a machine learning model to predict employee salaries based on historical data, experience, and job roles.',
+      tech: ['Python', 'Scikit-learn', 'Pandas', 'Gradient Boosting'],
       highlights: [
-        'F1-score of 0.92 on failure prediction',
-        'Hybrid model combining statistical and deep learning',
-        'Deployed as microservice with model versioning'
+        'Feature selection and engineering',
+        'Ensemble methods for improved accuracy',
+        'Deployed as REST API for integration'
       ],
       featured: false
     },
     {
       icon: <FaShoppingCart />,
       badge: 'Recommender System',
-      title: 'Personalized Recommendation Engine',
-      description: 'Hybrid recommendation system combining collaborative filtering and content-based methods for e-commerce, increasing conversion rate by 28%.',
-      tech: ['PyTorch', 'Surprise', 'PostgreSQL', 'Flask'],
+      title: 'AI-Powered Matchmaking (Dates & Honey)',
+      description: 'Engineered a data-driven matchmaking algorithm using collaborative filtering to improve user matches in mobile dating application.',
+      tech: ['Python', 'Flask', 'React Native', 'Collaborative Filtering'],
       highlights: [
-        'Processes 50K+ user interactions for personalization',
-        'A/B tested with 15% improvement in CTR',
-        'Real-time recommendations via REST API'
+        'Collaborative filtering for personalized matches',
+        'Backend APIs serving model predictions',
+        'Integrated with React Native mobile app'
+      ],
+      featured: false
+    },
+    {
+      icon: <FaComments />,
+      badge: 'NLP',
+      title: 'NLP-Powered Chatbot (InfluencerGo)',
+      description: 'Collaborated on building an NLP-powered chatbot to enhance user engagement and provide intelligent responses in influencer marketing app.',
+      tech: ['Python', 'NLP', 'Flask', 'React Native'],
+      highlights: [
+        'Natural language understanding and generation',
+        'Context-aware conversational AI',
+        'Seamless integration with mobile platform'
       ],
       featured: false
     }

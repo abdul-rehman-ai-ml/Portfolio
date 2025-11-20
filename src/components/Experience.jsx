@@ -6,60 +6,69 @@ const Experience = () => {
       title: 'AI Engineer (Trainee)',
       company: 'NAVTTC',
       period: '2025 - Present',
-      description: 'Developing and deploying advanced AI/ML systems with focus on NLP, deep learning, and MLOps practices.',
+      description:
+        'Working on applied AI/ML projects while strengthening mobile integration skills for real-world applications.',
       achievements: [
         {
           title: 'Multi-Lingual Sentiment Analysis (GlobalTextIQ)',
-          description: 'Engineered an NLP system to analyze customer reviews and remarks across multiple languages'
+          description:
+            'Built an NLP system and exposed mobile-friendly APIs that can be integrated into React Native apps.'
         },
         {
           title: 'Heart Disease Prediction System',
-          description: 'Deployed a heart disease classification model to AWS SageMaker using a full CI/CD pipeline with GitHub Actions'
+          description:
+            'Deployed a classification model on AWS SageMaker with CI/CD automation and scalable API endpoints.'
         },
-        'Developed CNN for deep learning-based image classification',
-        'Implemented ANN for housing price prediction',
-        'Deployed linear regression housing price model using MLOps principles',
-        'Built ML model for employee salary prediction based on historical data',
-        'View more projects on GitHub'
+        'Developed CNN models for image-based classification tasks',
+        'Implemented ANN models for prediction-driven features in apps',
+        'Built and deployed ML regression models following MLOps best practices',
+        'More AI/ML projects available on GitHub'
       ]
     },
     {
-      title: 'Full Stack Developer',
+      title: 'React Native | Full Stack Developer',
       company: 'Exersys, Los Angeles, US (Remote)',
       period: '2024 - Present',
-      description: 'Transitioned to an AI-focused role, integrating Python-based machine learning models into React Native mobile applications.',
+      description:
+        'Building and optimizing React Native mobile apps while integrating backend services and AI-driven features.',
       achievements: [
         {
           title: 'AI-Powered Matchmaking (Dates & Honey & InfluencerGo)',
-          description: 'Engineered a data-driven matchmaking algorithm using collaborative filtering to improve user matches'
+          description:
+            'Integrated a recommendation engine into mobile apps to enhance match accuracy and user retention.'
         },
-        'Developed and consumed scalable backend APIs (Flask/Python) to serve model predictions to mobile front-end',
-        'Collaborated on NLP-powered chatbot, enhancing user engagement and app functionality'
+        'Developed scalable Python/Flask APIs consumed by React Native applications',
+        'Integrated AI-powered chatbot and automation features to enhance user engagement',
+        'Improved mobile UI/UX and performance for high-traffic apps'
       ]
     },
     {
       title: 'React Native Developer',
       company: 'Netnexs, Lahore, Pakistan',
       period: '2022 - 2024',
-      description: 'Developed and deployed cross-platform mobile applications for Android and iOS using React Native.',
+      description:
+        'Developed and deployed cross-platform mobile applications for Android and iOS using React Native.',
       achievements: [
         {
           title: 'E-commerce & Fitness Apps (Zigy & Fitorza)',
-          description: 'Engineered and integrated complex RESTful APIs for data-heavy applications'
+          description:
+            'Integrated complex REST APIs, built scalable UI components, and optimized performance across screens.'
         },
-        'Optimized application performance and state management (Redux/Hooks) for thousands of users',
-        'Delivered seamless user experiences across multiple platforms'
+        'Enhanced state management with Redux, Context API, and custom hooks',
+        'Delivered smooth, responsive UI across both iOS and Android platforms',
+        'Implemented reusable components for fast feature development'
       ]
     },
     {
       title: 'React Developer',
       company: 'Softini Solutions, Lahore, Pakistan',
       period: '2021 - 2022',
-      description: 'Built and maintained responsive web applications using React.js and Vite.',
+      description:
+        'Built and maintained responsive, high-performance web applications using React.js.',
       achievements: [
-        'Engineered seamless API integrations, connecting frontend components to backend services',
-        'Translated complex UI/UX designs into high-performance, functional code',
-        'Maintained code quality and best practices across projects'
+        'Integrated REST APIs and improved component performance across multiple projects',
+        'Converted Figma/UI designs into pixel-perfect, production-ready interfaces',
+        'Maintained code quality, modular structure, and reusable components'
       ]
     }
   ];

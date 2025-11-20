@@ -1,22 +1,22 @@
 import React from 'react';
-import { FaRobot, FaBrain, FaCodeBranch } from 'react-icons/fa';
+import { FaMobileAlt, FaRobot, FaBrain } from 'react-icons/fa';
 
 const About = () => {
   const highlights = [
     {
+      icon: <FaMobileAlt />,
+      title: 'React Native Development',
+      description: 'Building high-performance cross-platform mobile apps with modern UI/UX and optimized architecture.'
+    },
+    {
       icon: <FaRobot />,
-      title: 'Agentic AI',
-      description: 'Building autonomous agents with LangChain, LlamaIndex, and custom frameworks'
+      title: 'AI-Powered Applications',
+      description: 'Integrating LLMs, automation, and intelligent features directly into mobile and web apps.'
     },
     {
       icon: <FaBrain />,
-      title: 'Generative AI',
-      description: 'Fine-tuning LLMs, RAG systems, and multimodal AI applications'
-    },
-    {
-      icon: <FaCodeBranch />,
-      title: 'MLOps',
-      description: 'Deploying AI models at scale with AWS, Docker, and CI/CD pipelines'
+      title: 'Generative AI & LLMs',
+      description: 'Working with GPT models, RAG pipelines, embeddings, and custom AI workflows.'
     }
   ];
 
@@ -27,15 +27,16 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p className="lead">
-              AI Engineer with <strong>4+ years</strong> of full-stack development experience, now specializing in 
-              cutting-edge AI technologies including <strong>Agentic AI systems</strong>, <strong>Large Language Models</strong>, 
-              and <strong>Generative AI applications</strong>.
+              React Native Developer & AI Specialist with 4 years of experience 
+              in building mobile apps enhanced with LLM, AI automation, and 
+             Generative AI features.
             </p>
             <p>
-              My journey from full-stack development to AI engineering has equipped me with a unique perspective on 
-              building scalable, production-ready AI systems. I excel at bridging the gap between research and deployment, 
-              creating intelligent agents that solve real-world problems.
+              I combine deep mobile development skills with modern AI technologies to create intelligent, 
+              production-ready applications. From integrating LLM APIs to building custom AI workflows, 
+              I focus on delivering real-world, scalable solutions.
             </p>
+
             <div className="highlights">
               {highlights.map((item, index) => (
                 <div key={index} className="highlight-item">

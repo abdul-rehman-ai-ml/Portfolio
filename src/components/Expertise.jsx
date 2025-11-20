@@ -1,70 +1,105 @@
 import React from 'react';
-import { FaRobot, FaWandMagicSparkles, FaNetworkWired, FaCloud, FaBrain, FaCode, FaDatabase } from 'react-icons/fa6';
+import { 
+  FaMobileScreenButton, 
+  FaCode, 
+  FaDatabase, 
+  FaCloud, 
+  FaRobot, 
+  FaReact, 
+} from 'react-icons/fa6';
+import { 
+    FaTools 
+} from 'react-icons/fa';
 
 const Expertise = () => {
   const expertiseCards = [
     {
+      icon: <FaReact />,
+      title: 'React Native Development',
+      skills: [
+        'Cross-platform mobile app development (iOS & Android)',
+        'Reusable & scalable component architecture',
+        'Navigation, animations & gesture handling',
+        'Responsive UI with Tailwind / Styled Components',
+        'Expo & React Native CLI'
+      ]
+    },
+    {
+      icon: <FaTools />,
+      title: 'State Management & Performance',
+      skills: [
+        'Redux, Redux Toolkit, Zustand, Context API',
+        'Optimizing renders & reducing re-renders',
+        'Offline-first storage (MMKV, AsyncStorage)',
+        'Performance profiling & optimization',
+        'Efficient list rendering (FlatList, SectionList)'
+      ]
+    },
+    {
+      icon: <FaMobileScreenButton />,
+      title: 'Mobile APIs & Integrations',
+      skills: [
+        'REST API development & integration',
+        'Authentication (JWT, OAuth, Firebase Auth)',
+        'Push notifications (FCM/APNs)',
+        'Maps, Geolocation, Deep Links',
+        'Payment gateway & third-party SDK integration'
+      ]
+    },
+    {
       icon: <FaRobot />,
-      title: 'Agentic AI Systems',
+      title: 'AI Features in Mobile Apps',
       skills: [
-        'Multi-agent orchestration',
-        'ReAct & Chain-of-Thought prompting',
-        'Tool-using agents (Function calling)',
-        'LangChain & LangGraph',
-        'AutoGPT & BabyAGI architectures'
-      ]
-    },
-    {
-      icon: <FaWandMagicSparkles />,
-      title: 'Generative AI',
-      skills: [
-        'LLM fine-tuning (LoRA, QLoRA)',
-        'RAG (Retrieval-Augmented Generation)',
-        'Prompt engineering & optimization',
-        'GPT-4, Claude, Llama integration',
-        'Text-to-image & multimodal AI'
-      ]
-    },
-    {
-      icon: <FaNetworkWired />,
-      title: 'Machine Learning',
-      skills: [
-        'Deep Learning (PyTorch, TensorFlow)',
-        'NLP & Computer Vision',
-        'Model optimization & quantization',
-        'Transfer learning',
-        'Reinforcement Learning basics'
-      ]
-    },
-    {
-      icon: <FaCloud />,
-      title: 'MLOps & Deployment',
-      skills: [
-        'AWS (SageMaker, Lambda, EC2)',
-        'Docker & Kubernetes',
-        'FastAPI & Flask for ML APIs',
-        'Vector databases (Pinecone, Weaviate)',
-        'Model monitoring & versioning'
+        'Connecting mobile apps with AI/ML API endpoints',
+        'LLM-powered chat experiences',
+        'Recommendation engines for app personalization',
+        'NLP-driven features (summaries, classification)',
+        'Integrating OpenAI, Claude, or custom AI models'
       ]
     }
   ];
 
   const techStack = {
-    'AI/ML Frameworks': {
-      icon: <FaBrain />,
-      tags: ['LangChain', 'LlamaIndex', 'PyTorch', 'TensorFlow', 'Hugging Face', 'OpenAI API', 'Anthropic Claude']
+    'Mobile Development': {
+      icon: <FaReact />,
+      tags: [
+        'React Native', 
+        'Expo', 
+        'TypeScript', 
+        'JavaScript',
+        'React Navigation', 
+        'Zustand', 
+        'Redux Toolkit'
+      ]
     },
-    'Programming': {
+    'Backend & APIs': {
       icon: <FaCode />,
-      tags: ['Python', 'JavaScript/TypeScript', 'SQL', 'React', 'Node.js']
+      tags: [
+        'Node.js', 
+        'Express', 
+        'Flask', 
+        'FastAPI', 
+        'REST APIs'
+      ]
     },
-    'Data & Vector DBs': {
+    'Databases': {
       icon: <FaDatabase />,
-      tags: ['Pinecone', 'Weaviate', 'ChromaDB', 'PostgreSQL', 'MongoDB']
+      tags: [
+        'MongoDB', 
+        'PostgreSQL', 
+        'SQLite', 
+        'Firebase Firestore'
+      ]
     },
     'Cloud & DevOps': {
       icon: <FaCloud />,
-      tags: ['AWS', 'Docker', 'Git', 'CI/CD', 'Linux']
+      tags: [
+        'AWS', 
+        'Git & CI/CD', 
+        'Docker', 
+        'S3', 
+        'Cloud Functions'
+      ]
     }
   };
 

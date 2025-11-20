@@ -9,12 +9,13 @@ const Hero = () => {
   const [isDeleting, setIsDeleting] = useState(false);
 
   const roles = [
-    'Agentic AI Engineer',
-    'Generative AI Specialist',
-    'LLM Application Developer',
-    'AI/ML Engineer',
-    'Full Stack AI Developer'
+    'React Native Developer & AI Specialist',
+    'React Native Engineer & LLM Developer',
+    'Mobile AI Developer (React Native)',
+    'React Native & Generative AI Engineer',
+    'Full-Stack Mobile & AI Engineer'
   ];
+
 
   useEffect(() => {
     const typingSpeed = isDeleting ? 50 : 100;
@@ -51,8 +52,9 @@ const Hero = () => {
             <span className="cursor">|</span>
           </h2>
           <p className="hero-description">
-            Specialized in building intelligent systems with <strong>Agentic AI</strong>, <strong>Generative AI</strong>, 
-            and <strong>LLM-powered applications</strong>. Transforming complex AI research into production-ready solutions.
+            Specialized in building smart mobile experiences with <strong>React Native</strong> and
+            <strong> AI-driven systems</strong>, including <strong>LLMs</strong> and
+            <strong> Generative AI</strong>. Turning advanced AI capabilities into real-world applications.
           </p>
           <div className="hero-cta">
             <Link to="contact" smooth={true} offset={-80} duration={500} className="btn btn-primary">

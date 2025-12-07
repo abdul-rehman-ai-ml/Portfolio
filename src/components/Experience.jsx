@@ -3,29 +3,6 @@ import React from 'react';
 const Experience = () => {
   const experiences = [
     {
-      title: 'AI Engineer (Trainee)',
-      company: 'NAVTTC',
-      period: '2025 - Present',
-      description:
-        'Working on applied AI/ML projects while strengthening mobile integration skills for real-world applications.',
-      achievements: [
-        {
-          title: 'Multi-Lingual Sentiment Analysis (GlobalTextIQ)',
-          description:
-            'Built an NLP system and exposed mobile-friendly APIs that can be integrated into React Native apps.'
-        },
-        {
-          title: 'Heart Disease Prediction System',
-          description:
-            'Deployed a classification model on AWS SageMaker with CI/CD automation and scalable API endpoints.'
-        },
-        'Developed CNN models for image-based classification tasks',
-        'Implemented ANN models for prediction-driven features in apps',
-        'Built and deployed ML regression models following MLOps best practices',
-        'More AI/ML projects available on GitHub'
-      ]
-    },
-    {
       title: 'React Native | Full Stack Developer',
       company: 'Exersys, Los Angeles, US (Remote)',
       period: '2024 - Present',

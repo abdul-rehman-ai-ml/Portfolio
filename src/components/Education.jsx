@@ -12,6 +12,14 @@ const Education = () => {
       highlight: false
     },
     {
+      icon: <FaBrain />,
+      title: 'AI/ML & Deep Learning',
+      institution: 'NAVTTC',
+      period: 'May 2025 - August 2025',
+      description: 'Comprehensive training in neural networks, CNNs, RNNs, and modern ML techniques',
+      highlight: true
+    },
+    {
       icon: <FaRobot />,
       title: 'Generative AI & Agentic AI Specialization',
       institution: 'NAVTTC (National Vocational & Technical Training Commission)',
@@ -21,12 +29,12 @@ const Education = () => {
     },
     {
       icon: <FaBrain />,
-      title: 'AI/ML & Deep Learning',
-      institution: 'NAVTTC',
-      period: 'May 2025 - August 2025',
-      description: 'Comprehensive training in neural networks, CNNs, RNNs, and modern ML techniques',
+      title: 'AI Foundations',
+      institution: 'Coursera',
+      period: '2024',
+      description: 'Core understanding of AI concepts including machine learning fundamentals, neural networks, and practical AI applications.',
       highlight: true
-    }
+    },
   ];
 
   return (

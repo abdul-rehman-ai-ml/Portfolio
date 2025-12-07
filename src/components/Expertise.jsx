@@ -63,7 +63,8 @@ const Expertise = () => {
     'Mobile Development': {
       icon: <FaReact />,
       tags: [
-        'React Native', 
+        'React Native',
+        'Flutter',
         'Expo', 
         'TypeScript', 
         'JavaScript',
@@ -78,6 +79,7 @@ const Expertise = () => {
         'Node.js', 
         'Express', 
         'Flask', 
+        'Django', 
         'FastAPI', 
         'REST APIs'
       ]
@@ -86,6 +88,7 @@ const Expertise = () => {
       icon: <FaDatabase />,
       tags: [
         'MongoDB', 
+        'SQL', 
         'PostgreSQL', 
         'SQLite', 
         'Firebase Firestore'
@@ -94,6 +97,7 @@ const Expertise = () => {
     'Cloud & DevOps': {
       icon: <FaCloud />,
       tags: [
+        'AZURE', 
         'AWS', 
         'Git & CI/CD', 
         'Docker', 

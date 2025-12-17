@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 
@@ -8,14 +8,14 @@ const Hero = () => {
   const [charIndex, setCharIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
 
-  const roles = [
-    'React Native Developer & AI Specialist',
-    'React Native Engineer & LLM Developer',
-    'Mobile AI Developer (React Native)',
-    'React Native & Generative AI Engineer',
-    'Full-Stack Mobile & AI Engineer'
-  ];
 
+  const roles = [
+    'Full-Stack AI Engineer',
+    'MERN & Python Developer',
+    'RAG & LLM Specialist',
+    'AI Solutions Architect',
+    'End-to-End Intelligent Systems Architect',
+  ];
 
   useEffect(() => {
     const typingSpeed = isDeleting ? 50 : 100;
@@ -44,17 +44,17 @@ const Hero = () => {
       <div className="hero-content">
         <div className="hero-text">
           <h1 className="hero-title">
-            <span className="greeting">Hi, I'm</span>
+            <span className="greeting">Hi, I&lsquo;m</span>
             <span className="name">Abdul Rehman</span>
           </h1>
           <h2 className="hero-subtitle">
             <span className="typing-text">{typedText}</span>
             <span className="cursor">|</span>
           </h2>
-          <p className="hero-description">
-            Specialized in building smart mobile experiences with <strong>React Native</strong> and
-            <strong> AI-driven systems</strong>, including <strong>LLMs</strong> and
-            <strong> Generative AI</strong>. Turning advanced AI capabilities into real-world applications.
+         <p className="hero-description">
+            Leveraging dual mastery in the <strong>MERN stack</strong> and <strong>Python frameworks</strong> (Django, Flask) 
+            to engineer scalable <strong>Full-Stack</strong> intelligent systems. I specialize in <strong>LLM Fine-Tuning</strong>, 
+            <strong>RAG pipelines</strong>, and bridging complex AI models with high-performance web and mobile applications.
           </p>
           <div className="hero-cta">
             <Link to="contact" smooth={true} offset={-80} duration={500} className="btn btn-primary">

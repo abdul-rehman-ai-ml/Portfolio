@@ -1,51 +1,50 @@
-import React from 'react';
 
 const Experience = () => {
   const experiences = [
     {
-      title: 'React Native | Full Stack Developer',
+      title: 'Senior Full Stack & AI Integration',
       company: 'Exersys, Los Angeles, US (Remote)',
-      period: '2024 - Present',
+      period: '03/2024 - Present',
       description:
-        'Building and optimizing React Native mobile apps while integrating backend services and AI-driven features.',
+        'Principal engineering role focused on bridging complex AI models (LLM/RAG) with high-performance mobile and web applications.',
       achievements: [
         {
-          title: 'AI-Powered Matchmaking (Dates & Honey & InfluencerGo)',
+          title: 'AI Pipeline Optimization',
           description:
-            'Integrated a recommendation engine into mobile apps to enhance match accuracy and user retention.'
+            'Optimized the RAG pipeline, reducing response latency by 40% and enhancing real-time recommendation systems.'
         },
-        'Developed scalable Python/Flask APIs consumed by React Native applications',
-        'Integrated AI-powered chatbot and automation features to enhance user engagement',
-        'Improved mobile UI/UX and performance for high-traffic apps'
+        'Integrated Python ML models into React Native, reducing API latency by 15% for 10,000+ users',
+        'Engineered collaborative filtering algorithms for "Dates & Honey" and "InfluencerGo", boosting match accuracy by 30%',
+        'Bridged web and mobile engineering teams to deliver scalable AI-driven solutions'
       ]
     },
     {
-      title: 'React Native Developer',
+      title: 'Full Stack Engineer',
       company: 'Netnexs, Lahore, Pakistan',
-      period: '2022 - 2024',
+      period: '03/2022 - 01/2024',
       description:
-        'Developed and deployed cross-platform mobile applications for Android and iOS using React Native.',
+        'Engineered scalable cross-platform mobile applications and backend REST APIs for high-traffic products.',
       achievements: [
         {
-          title: 'E-commerce & Fitness Apps (Zigy & Fitorza)',
+          title: 'High-Volume API Architecture (Zigy & Fitorza)',
           description:
-            'Integrated complex REST APIs, built scalable UI components, and optimized performance across screens.'
+            'Engineered complex RESTful APIs handling 10,000+ requests per day with high efficiency.'
         },
-        'Enhanced state management with Redux, Context API, and custom hooks',
-        'Delivered smooth, responsive UI across both iOS and Android platforms',
-        'Implemented reusable components for fast feature development'
+        'Developed and deployed 3+ cross-platform apps reaching over 50,000 active users',
+        'Implemented CI/CD automation using GitHub Actions and Fastlane, reducing time-to-market by 50%',
+        'Optimized state management and performance for data-heavy mobile applications'
       ]
     },
     {
-      title: 'React Developer',
+      title: 'Frontend Engineer & API Integration',
       company: 'Softini Solutions, Lahore, Pakistan',
-      period: '2021 - 2022',
+      period: '03/2021 - 02/2022',
       description:
-        'Built and maintained responsive, high-performance web applications using React.js.',
+        'Specialized in building responsive web applications and seamless backend integrations.',
       achievements: [
-        'Integrated REST APIs and improved component performance across multiple projects',
-        'Converted Figma/UI designs into pixel-perfect, production-ready interfaces',
-        'Maintained code quality, modular structure, and reusable components'
+        'Built and maintained high-performance web applications using React.js and Vite',
+        'Engineered seamless API integrations to connect frontend components with backend services',
+        'Converted UI designs into modular, responsive, and production-ready interfaces'
       ]
     }
   ];

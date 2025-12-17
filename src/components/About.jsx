@@ -1,24 +1,23 @@
-import React from 'react';
-import { FaMobileAlt, FaRobot, FaBrain } from 'react-icons/fa';
+import {  FaRobot, FaBrain, FaLayerGroup } from 'react-icons/fa';
 
 const About = () => {
   const highlights = [
-    {
-      icon: <FaMobileAlt />,
-      title: 'React Native Development',
-      description: 'Building high-performance cross-platform mobile apps with modern UI/UX and optimized architecture.'
-    },
-    {
-      icon: <FaRobot />,
-      title: 'AI-Powered Applications',
-      description: 'Integrating LLMs, automation, and intelligent features directly into mobile and web apps.'
-    },
-    {
-      icon: <FaBrain />,
-      title: 'Generative AI & LLMs',
-      description: 'Working with GPT models, RAG pipelines, embeddings, and custom AI workflows.'
-    }
-  ];
+  {
+    icon: <FaLayerGroup />,
+    title: 'Full-Stack Architecture',
+    description: 'Building scalable, end-to-end web and mobile applications using the MERN stack and Python.'
+  },
+  {
+    icon: <FaRobot />,
+    title: 'AI Integration & RAG',
+    description: 'Engineering intelligent pipelines, optimizing RAG systems, and reducing model latency.'
+  },
+  {
+    icon: <FaBrain />,
+    title: 'Generative AI & LLMs',
+    description: 'Fine-tuning models and implementing vector search for high-accuracy, context-aware AI solutions.'
+  }
+];
 
   return (
     <section id="about" className="about">
@@ -26,15 +25,16 @@ const About = () => {
         <h2 className="section-title">About Me</h2>
         <div className="about-content">
           <div className="about-text">
-            <p className="lead">
-              React Native Developer & AI Specialist with 4 years of experience 
-              in building mobile apps enhanced with LLM, AI automation, and 
-             Generative AI features.
+         <p className="lead">
+              Full-Stack Developer & AI/ML Specialist with over 4 years of experience 
+              engineering scalable, end-to-end intelligent systems using the MERN stack 
+              and Python.
             </p>
             <p>
-              I combine deep mobile development skills with modern AI technologies to create intelligent, 
-              production-ready applications. From integrating LLM APIs to building custom AI workflows, 
-              I focus on delivering real-world, scalable solutions.
+              I bridge the gap between complex AI architectures such as RAG pipelines and 
+              Fine Tuned LLMs and high performance user interfaces. My focus is on 
+              optimizing latency, ensuring scalability, and delivering production grade 
+              AI solutions for both web and mobile platforms.
             </p>
 
             <div className="highlights">

@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
@@ -25,19 +24,19 @@ const Contact = () => {
       icon: <FaLinkedin />,
       title: 'LinkedIn',
       value: 'Connect with me',
-      link: 'https://www.linkedin.com/in/abduI-rehman-80b51a200/'
+      link: 'https://www.linkedin.com/in/abdul-rehman-fullstack-ai-engineer/'
     }
   ];
 
   return (
     <section id="contact" className="contact">
       <div className="container">
-        <h2 className="section-title">Let's Build Something Amazing</h2>
+        <h2 className="section-title">Let&apos;s Build Something Amazing</h2>
         <div className="contact-content">
           <div className="contact-info-section">
             <p className="contact-intro">
-              I'm always interested in discussing AI projects, research collaborations, or opportunities 
-              to work on cutting-edge AI systems. Let's connect!
+              I&apos;m always interested in discussing AI projects, research collaborations, or opportunities 
+              to work on cutting-edge AI systems. Let&lsquo;s connect!
             </p>
             <div className="contact-methods">
               {contactMethods.map((method, index) => (

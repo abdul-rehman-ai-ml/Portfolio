@@ -1,111 +1,113 @@
-import React from 'react';
 import { 
-  FaMobileScreenButton, 
   FaCode, 
   FaDatabase, 
   FaCloud, 
-  FaRobot, 
   FaReact, 
 } from 'react-icons/fa6';
 import { 
-    FaTools 
+  FaBrain,
+    FaServer,
 } from 'react-icons/fa';
 
 const Expertise = () => {
-  const expertiseCards = [
-    {
-      icon: <FaReact />,
-      title: 'React Native Development',
-      skills: [
-        'Cross-platform mobile app development (iOS & Android)',
-        'Reusable & scalable component architecture',
-        'Navigation, animations & gesture handling',
-        'Responsive UI with Tailwind / Styled Components',
-        'Expo & React Native CLI'
-      ]
-    },
-    {
-      icon: <FaTools />,
-      title: 'State Management & Performance',
-      skills: [
-        'Redux, Redux Toolkit, Zustand, Context API',
-        'Optimizing renders & reducing re-renders',
-        'Offline-first storage (MMKV, AsyncStorage)',
-        'Performance profiling & optimization',
-        'Efficient list rendering (FlatList, SectionList)'
-      ]
-    },
-    {
-      icon: <FaMobileScreenButton />,
-      title: 'Mobile APIs & Integrations',
-      skills: [
-        'REST API development & integration',
-        'Authentication (JWT, OAuth, Firebase Auth)',
-        'Push notifications (FCM/APNs)',
-        'Maps, Geolocation, Deep Links',
-        'Payment gateway & third-party SDK integration'
-      ]
-    },
-    {
-      icon: <FaRobot />,
-      title: 'AI Features in Mobile Apps',
-      skills: [
-        'Connecting mobile apps with AI/ML API endpoints',
-        'LLM-powered chat experiences',
-        'Recommendation engines for app personalization',
-        'NLP-driven features (summaries, classification)',
-        'Integrating OpenAI, Claude, or custom AI models'
-      ]
-    }
-  ];
+const expertiseCards = [
+  {
+    icon: <FaCode />, 
+    title: 'Full-Stack Engineering (Web & Mobile)',
+    skills: [
+      'MERN Stack (React, Node.js, MongoDB)',
+      'Cross-platform React Native (iOS & Android)',
+      'Responsive Web Apps with Vite & Tailwind',
+      'Scalable Component Architecture',
+      'Seamless Frontend-Backend Integration'
+    ]
+  },
+  {
+    icon: <FaBrain />, 
+    title: 'AI Engineering & LLMs',
+    skills: [
+      'RAG Pipelines & Vector Search Optimization',
+      'LLM Integration (OpenAI, Claude, Custom Models)',
+      'LangChain & LlamaIndex Frameworks',
+      'Prompt Engineering & Model Fine-Tuning',
+      'Intelligent Chatbots & Recommendation Systems'
+    ]
+  },
+  {
+    icon: <FaServer />, 
+    title: 'Backend & System Performance',
+    skills: [
+      'Python (Flask/Django/FastAPI) Microservices',
+      'API Latency Reduction & Caching Strategies',
+      'RESTful API Design & Secure Authentication',
+      'Database Optimization (SQL & NoSQL)',
+      'High-Concurrency Request Handling'
+    ]
+  },
+  {
+    icon: <FaCloud />, 
+    title: 'Cloud, MLOps & CI/CD',
+    skills: [
+      'CI/CD Pipelines (GitHub Actions, Fastlane)',
+      'AWS (SageMaker, S3) & Azure AI Services',
+      'Docker Containerization & Orchestration',
+      'Model Deployment & Monitoring',
+      'Cloud Infrastructure Management'
+    ]
+  }
+];
 
-  const techStack = {
-    'Mobile Development': {
-      icon: <FaReact />,
-      tags: [
-        'React Native',
-        'Flutter',
-        'Expo', 
-        'TypeScript', 
-        'JavaScript',
-        'React Navigation', 
-        'Zustand', 
-        'Redux Toolkit'
-      ]
-    },
-    'Backend & APIs': {
-      icon: <FaCode />,
-      tags: [
-        'Node.js', 
-        'Express', 
-        'Flask', 
-        'Django', 
-        'FastAPI', 
-        'REST APIs'
-      ]
-    },
-    'Databases': {
-      icon: <FaDatabase />,
-      tags: [
-        'MongoDB', 
-        'SQL', 
-        'PostgreSQL', 
-        'SQLite', 
-        'Firebase Firestore'
-      ]
-    },
-    'Cloud & DevOps': {
-      icon: <FaCloud />,
-      tags: [
-        'AZURE', 
-        'AWS', 
-        'Git & CI/CD', 
-        'Docker', 
-        'S3', 
-        'Cloud Functions'
-      ]
-    }
-  };
+// Tech Stack: Added "AI & ML" category, refined others
+const techStack = {
+  'AI & Machine Learning': { // NEW CATEGORY
+    icon: <FaBrain />,
+    tags: [
+      'Python',
+      'LangChain',
+      'TensorFlow',
+      'PyTorch',
+      'RAG',
+      'Vector DBs',
+      'OpenAI API',
+      'LlamaIndex'
+    ]
+  },
+  'Frontend & Mobile': { // RENAMED from "Mobile Development"
+    icon: <FaReact />,
+    tags: [
+      'React.js',
+      'React Native',
+      'TypeScript',
+      'Tailwind CSS',
+      'Redux Toolkit',
+      'Vite',
+      'Expo'
+    ]
+  },
+  'Backend & Database': { // MERGED Backend + Database
+    icon: <FaDatabase />,
+    tags: [
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'PostgreSQL',
+      'FastAPI',
+      'Flask',
+      'Firebase'
+    ]
+  },
+  'Cloud & DevOps': {
+    icon: <FaCloud />,
+    tags: [
+      'AWS SageMaker',
+      'Azure AI',
+      'Docker',
+      'GitHub Actions',
+      'Fastlane',
+      'CI/CD'
+    ]
+  }
+};
 
   return (
     <section id="expertise" className="expertise">

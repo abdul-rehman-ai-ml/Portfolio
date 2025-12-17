@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaGraduationCap, FaRobot, FaBrain } from 'react-icons/fa';
 
 const Education = () => {
@@ -23,7 +22,7 @@ const Education = () => {
       icon: <FaRobot />,
       title: 'Generative AI & Agentic AI Specialization',
       institution: 'NAVTTC (National Vocational & Technical Training Commission)',
-      period: 'September 2025 - December 2025',
+      period: 'Sep 2025 - Dec 2025',
       description: 'Advanced training in LLMs, multi-agent systems, RAG, and production AI deployment',
       highlight: true
     },

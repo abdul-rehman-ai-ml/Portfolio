@@ -1,13 +1,7 @@
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Contact = () => {
   const contactMethods = [
-    {
-      icon: <FaEnvelope />,
-      title: 'Email',
-      value: 'mrehmansiddiqui53@gmail.com',
-      link: 'mailto:mrehmansiddiqui53@gmail.com'
-    },
     {
       icon: <FaPhone />,
       title: 'Phone',
@@ -25,9 +19,21 @@ const Contact = () => {
       title: 'LinkedIn',
       value: 'Connect with me',
       link: 'https://www.linkedin.com/in/abdul-rehman-fullstack-ai-engineer/'
-    }
+    },
+    {
+      icon: <FaGithub />,
+      title: 'GitHub',
+      value: 'abdul-rehman-ai-ml',
+      link: 'https://github.com/abdul-rehman-ai-ml'
+    },
+    {
+      icon: <FaEnvelope />,
+      title: 'Email',
+      value: 'mrehman****@gmail.com',
+      link: 'mailto:mrehmansiddiqui53@gmail.com'
+    },
   ];
-
+  
   return (
     <section id="contact" className="contact">
       <div className="container">

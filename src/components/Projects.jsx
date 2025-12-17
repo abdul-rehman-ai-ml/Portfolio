@@ -1,8 +1,33 @@
-import React from 'react';
-import { FaRobot, FaComments, FaBrain, FaShieldAlt, FaTools, FaShoppingCart } from 'react-icons/fa';
+import { FaComments, FaBrain, FaShieldAlt, FaTools, FaShoppingCart } from 'react-icons/fa';
 
 const Projects = () => {
   const projects = [
+    {
+      icon: <FaShoppingCart />,
+      badge: 'Recommender System',
+      title: 'AI-Powered Matchmaking (Dates & Honey)',
+      description: 'Engineered a data-driven matchmaking algorithm using collaborative filtering to improve user matches in mobile dating application.',
+      tech: ['Python', 'Flask', 'React Native', 'Collaborative Filtering'],
+      highlights: [
+        'Collaborative filtering for personalized matches',
+        'Backend APIs serving model predictions',
+        'Integrated with React Native mobile app'
+      ],
+      featured: false
+    },
+    {
+      icon: <FaComments />,
+      badge: 'NLP',
+      title: 'NLP-Powered Chatbot (InfluencerGo)',
+      description: 'Collaborated on building an NLP-powered chatbot to enhance user engagement and provide intelligent responses in influencer marketing app.',
+      tech: ['Python', 'NLP', 'Flask', 'React Native'],
+      highlights: [
+        'Natural language understanding and generation',
+        'Context-aware conversational AI',
+        'Seamless integration with mobile platform'
+      ],
+      featured: false
+    },
     {
       icon: <FaComments />,
       badge: 'NLP',
@@ -81,32 +106,6 @@ const Projects = () => {
       ],
       featured: false
     },
-    {
-      icon: <FaShoppingCart />,
-      badge: 'Recommender System',
-      title: 'AI-Powered Matchmaking (Dates & Honey)',
-      description: 'Engineered a data-driven matchmaking algorithm using collaborative filtering to improve user matches in mobile dating application.',
-      tech: ['Python', 'Flask', 'React Native', 'Collaborative Filtering'],
-      highlights: [
-        'Collaborative filtering for personalized matches',
-        'Backend APIs serving model predictions',
-        'Integrated with React Native mobile app'
-      ],
-      featured: false
-    },
-    {
-      icon: <FaComments />,
-      badge: 'NLP',
-      title: 'NLP-Powered Chatbot (InfluencerGo)',
-      description: 'Collaborated on building an NLP-powered chatbot to enhance user engagement and provide intelligent responses in influencer marketing app.',
-      tech: ['Python', 'NLP', 'Flask', 'React Native'],
-      highlights: [
-        'Natural language understanding and generation',
-        'Context-aware conversational AI',
-        'Seamless integration with mobile platform'
-      ],
-      featured: false
-    }
   ];
 
   return (

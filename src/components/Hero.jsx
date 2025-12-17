@@ -1,6 +1,7 @@
 import  { useState, useEffect } from 'react';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 import { Link } from 'react-scroll';
+import rehmanBg from '../assets/rehmanbg.png';
 
 const Hero = () => {
   const [typedText, setTypedText] = useState('');
@@ -14,7 +15,7 @@ const Hero = () => {
     'MERN & Python Developer',
     'RAG & LLM Specialist',
     'AI Solutions Architect',
-    'End-to-End Intelligent Systems Architect',
+    'E2E AI Systems Architect',
   ];
 
   useEffect(() => {
@@ -41,6 +42,7 @@ const Hero = () => {
 
   return (
     <section id="home" className="hero">
+      <div className="container">
       <div className="hero-content">
         <div className="hero-text">
           <h1 className="hero-title">
@@ -78,9 +80,12 @@ const Hero = () => {
         </div>
         <div className="hero-visual">
           <div className="ai-animation">
-            <div className="neural-network"></div>
+            <div className="neural-network">
+              <img src={rehmanBg} alt="Abdul Rehman" className="hero-portrait" />
+            </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

@@ -77,6 +77,7 @@ const techStack = {
     tags: [
       'React.js',
       'React Native',
+      'Flutter',
       'TypeScript',
       'Tailwind CSS',
       'Redux Toolkit',
